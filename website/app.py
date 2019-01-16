@@ -1024,7 +1024,7 @@ def delete_command(server_id, command):
     Timers Plugin
 """
 
-from mee6.plugins import Timers
+#from mee6.plugins import Timers
 timers = Timers(in_bot=False)
 
 @app.route('/dashboard/<int:server_id>/timers')
